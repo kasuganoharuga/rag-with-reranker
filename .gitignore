@@ -1,0 +1,15 @@
+﻿__pycache__/
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.cache
+*.csv
+*.json
+
+# big artifacts and local models
+faiss_index/
+bge-reranker-base/
+
+# env/keys
+.env
+.env.*
